@@ -12,4 +12,4 @@ for i in range(1, 3):
     time.sleep(0.5)
 
 print('Total value: %d' % total)
-print("You won" if total>=7 else "You lost")
+print(f"{name} won" if total>=7 else f"{name} lost")
