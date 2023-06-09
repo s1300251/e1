@@ -1,4 +1,8 @@
 import random
+import time
+
+name = input("What is your name?\n>")
+print(f"Hello, {name}!")
 print('Rolling dice...')
 total = 0
 for i in range(1, 3):
